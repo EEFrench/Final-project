@@ -20,6 +20,7 @@ body{
 
 topbar{
     display: flex;
+    /* position: fixed; */
     padding: 14px 16px;
     background-color: #9A01CD;
     margin-left: 160px;
@@ -40,7 +41,7 @@ topbar{
 
 .search{
     position: relative;
-    left: 55%;
+    left: 50%;
 }
 /* .topbar a{
       float: left;
@@ -162,22 +163,22 @@ topbar{
     background-color: #9a01cd;
     margin: 0px 0px;
     min-height: 0vh;
-    padding: 0px 0px; 
+    padding: 0px 10px; 
     color:whitesmoke
   }
 
   .footer {
-    position: fixed;
+    /* position: fixed; */
+    display: flex;
     left: 160px;
     bottom: 0;
     width: 100%;
-    margin: 0px 0px;
-    padding: 0px 15px;
+    margin: 10px 10px;
+    padding: 0px 50px;
     background-color:#ffa202;
-    color: #340146;
-    /* text-align: center; */
   }
 
+  /* Social Media Links */  
   .fa {
     padding: 20px;
     font-size: 30px;
@@ -211,4 +212,3 @@ topbar{
     background: #cb2027;
     color: white;
   }
-  
