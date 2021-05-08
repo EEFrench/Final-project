@@ -302,6 +302,19 @@ body{
         color: white;
       }
 
+      button{
+        background-color: #9a01cd;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+      }
+      
+      button:hover {
+        background-color: #002a53
+      }
+
   body, html {
     height: 100%;
     margin: 0;
