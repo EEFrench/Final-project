@@ -42,14 +42,9 @@ body{
     text-shadow: 2px 2px #340146;
     /* border: 5px solid #ffa202 */
   }
+  
 
-  .search{
-    position: relative;
-    padding-left: 400px;
-    /* left: 50%; */
-  }
-
-  .topbar a, .topbar input[type=text] {
+  .topbar a{
     float: none;
     display: block;
     text-align: left;
@@ -58,7 +53,8 @@ body{
     padding: 0px;
     border: 1px solid #ccc; 
   }
-        
+    
+  /* PROPS-n-STUFF FONT  */
     topbar a{
       padding: 0 15px;
       font-family: EEF;
@@ -104,7 +100,7 @@ body{
 /*NAVBAR*/
   .sidenav{
     height: 100%;
-    width: 160px;
+    width: 175px;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -132,6 +128,10 @@ body{
     display: block; */
   }
 
+  .sidenav input{
+    width:90%;
+  }
+
   .sidenav a {
     /* padding: 6px 8px 6px 16px; */
     font-family: "Headline FA";
@@ -155,12 +155,20 @@ body{
     @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
-    }
+  }
+
+    /* SEARCH BAR  */
+  .search {
+    /* position: relative; */
+    /* padding-left: 400px; */
+    /* float: right; */
+    margin: 10px;
+  }
 
 
 /* MAIN BODY  */
   .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
+    margin-left: 175px; /* Same as the width of the sidenav */
     font-size: 28px; Increased text to enable scrolling
     padding: 0px 20px;
     /* font-family: Bookman Caps;
@@ -171,7 +179,7 @@ body{
     color:whitesmoke */
   }
 
-  h2{
+  h2, footer{
     font-size: 28px;
     text-align:left;
     font-family: Bookman Caps;
@@ -250,19 +258,20 @@ body{
 
   /* FOOTER  */
     footer {
-      position:static;
+      /* position:static; */
       /* display: flex; */
-      margin-left: 160px;
+      margin-left: 175px;
       bottom: 0;
       width: 100%;
-      padding: 0px 50px;
+      /* padding: 0px 50px; */
+      padding-left: 20px;
       background-color:#ffa202;
     }
 
     /* Social Media Links */  
       .fa {
         padding: 20px;
-        font-size: 30px;
+        font-size: 20px;
         width: 30px;
         text-align: center;
         text-decoration: none;
@@ -299,4 +308,6 @@ body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
+
+
   
