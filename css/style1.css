@@ -114,16 +114,16 @@ body{
 
   .sidenav a {
     /* padding: 6px 8px 6px 16px; */
-    font-family: "Headline FA";
-    src="./fonts/HeadlineFA.otf"; 
+    font-family: 'HeadlineFA';
+    /* src="./fonts/HeadlineFA.otf";  */
     text-decoration: none;
     font-size: 18px;
     color: whitesmoke;
     display: block;
-    font-family: "Headline FA";
+    /* font-family: "Headline FA";
     src="./fonts/HeadlineFA.otf"; 
     text-decoration: none;
-    font-size: 18px;
+    font-size: 18px; */
     color: whitesmoke;
     display: block;
   }
@@ -149,7 +149,7 @@ body{
 /* MAIN BODY  */
   .main {
     margin-left: 175px; /* Same as the width of the sidenav */
-    /* font-size: 28px; Increased text to enable scrolling; */
+    font-size: 28px;  
     padding: 0px 20px;
     /* font-family: Bookman Caps;
     src="./BOOKSB_CAPS.otf"; */
@@ -171,7 +171,7 @@ body{
     color:whitesmoke
   }
 
-  p{
+  p, li{
     padding: 5px 10px;
     font-family: 'Libre Baskerville', serif;
     font-size: 18px;
