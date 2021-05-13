@@ -16,3 +16,9 @@
     text-shadow: 2px 2px #340146; 
     font-size: 50px;  
 }
+#podcasts p{
+    font-family: 'Libre Baskerville', serif;
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: left;
+}
