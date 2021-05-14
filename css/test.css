@@ -112,6 +112,12 @@ body{
     width:90%;
   }
 
+ .sidenav img:hover {
+    content: url(../img/Home.png);
+    /* height: 70px;
+    width: 120px; */
+}
+
   .sidenav a {
     /* padding: 6px 8px 6px 16px; */
     font-family: "Headline FA";

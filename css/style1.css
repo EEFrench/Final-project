@@ -112,6 +112,10 @@ body{
     width:90%;
   }
 
+  .sidenav img:hover {
+    content: url(../img/Home.png);
+  }
+
   .sidenav a {
     /* padding: 6px 8px 6px 16px; */
     font-family: 'HeadlineFA';
@@ -197,9 +201,11 @@ body{
     margin-left: 40px;
     /* resize: vertical Allow the user to vertically resize the textarea (not horizontally) */
     display: block;
+    font-family: EEF; font-size: xx-large;
+    color:#340146;
   }
-  
-  /* Style the submit button with a specific background color etc */
+
+    /* Style the submit button with a specific background color etc */
   input[type=submit] {
     background-color: #9a01cd;
     color: white;
@@ -220,7 +226,7 @@ body{
     background-color: #340146;;
     padding: 20px;
     margin: 20px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "French's Asylum"; font-size: 40px;
     color: white;
     border: 5px solid #ffa202
   }
@@ -299,7 +305,7 @@ body{
   body, html {
     height: 100%;
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
   }
 
 
