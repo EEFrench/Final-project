@@ -119,7 +119,7 @@ body{
   .sidenav a {
     /* padding: 6px 8px 6px 16px; */
     font-family: 'HeadlineFA';
-    /* src="./fonts/HeadlineFA.otf";  */
+    src="./fonts/HeadlineFA.otf";
     text-decoration: none;
     font-size: 18px;
     color: whitesmoke;
