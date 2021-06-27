@@ -29,8 +29,7 @@ topbar{
   justify-content:left;
   font-size: 30px;
   padding: 5px 25px;
-  font-family: "French's Asylum";
-  src="./fonts/FrenchsAsylum.otf";text-align: center;
+  font-family: "French's Asylum";text-align: center;
   text-decoration: none;
   color: #ffa202;
   text-shadow: 2px 2px #340146;
@@ -74,7 +73,6 @@ topbar{
   
   .hero-image h1{
     font-family: "French's Asylum";
-    src="./fonts/FrenchsAsylum.otf";
     text-align: center;
     text-decoration: none;
     color: #ffa202;
@@ -82,7 +80,6 @@ topbar{
   }
   .hero-image p{
     font-family: "EEFBolder";
-    src="./fonts/FrenchsAsylum.otf";
     text-align: center;
     text-decoration: none;
     font-size:xx-large;
@@ -118,7 +115,6 @@ topbar{
   content: url(../img/Home.png);
 }
 
-<<<<<<< HEAD
 .sidenav a {
   /* padding: 6px 8px 6px 16px; */
   font-family: 'HeadlineFA';
@@ -138,27 +134,6 @@ topbar{
 .sidenav a:hover {
   color: #ffa202;
 }
-=======
-  .sidenav a {
-    /* padding: 6px 8px 6px 16px; */
-    font-family: 'HeadlineFA';
-    src="./fonts/HeadlineFA.otf";
-    text-decoration: none;
-    font-size: 18px;
-    color: whitesmoke;
-    display: block;
-    /* font-family: "Headline FA";
-    src="./fonts/HeadlineFA.otf"; 
-    text-decoration: none;
-    font-size: 18px; */
-    color: whitesmoke;
-    display: block;
-  }
-    
-  .sidenav a:hover {
-    color: #ffa202;
-  }
->>>>>>> 9ed71265a57dd2d50db707107ecb227cec523597
 
   @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -191,7 +166,6 @@ h2, footer{
   font-size: 28px;
   text-align:left;
   font-family: Bookman Caps;
-  src="./BOOKSB_CAPS.otf";
   background-color: #9a01cd;
   margin: 0px 0px;
   min-height: 0vh;
@@ -332,7 +306,3 @@ body, html {
 }
 
 
-<<<<<<< HEAD
-=======
-  
->>>>>>> 9ed71265a57dd2d50db707107ecb227cec523597
