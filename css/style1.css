@@ -118,6 +118,7 @@ topbar{
   content: url(../img/Home.png);
 }
 
+<<<<<<< HEAD
 .sidenav a {
   /* padding: 6px 8px 6px 16px; */
   font-family: 'HeadlineFA';
@@ -137,6 +138,27 @@ topbar{
 .sidenav a:hover {
   color: #ffa202;
 }
+=======
+  .sidenav a {
+    /* padding: 6px 8px 6px 16px; */
+    font-family: 'HeadlineFA';
+    src="./fonts/HeadlineFA.otf";
+    text-decoration: none;
+    font-size: 18px;
+    color: whitesmoke;
+    display: block;
+    /* font-family: "Headline FA";
+    src="./fonts/HeadlineFA.otf"; 
+    text-decoration: none;
+    font-size: 18px; */
+    color: whitesmoke;
+    display: block;
+  }
+    
+  .sidenav a:hover {
+    color: #ffa202;
+  }
+>>>>>>> 9ed71265a57dd2d50db707107ecb227cec523597
 
   @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -310,3 +332,7 @@ body, html {
 }
 
 
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 9ed71265a57dd2d50db707107ecb227cec523597
